@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fff;
+  color: #fff;
+  font-family: 'Press Start 2P', sans-serif;
+  margin: 0;
+  overflow: hidden;
+}
+
+.screen {
+  background-color: #4268FF;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#play-btn {
+  background-color: #fff;
+  color: #4268FF;
+  border: none;
+  padding: 0.5rem 1rem;
+  font-family: inherit;
+}
+
+#play-btn:hover {
+  opacity: 0.9;
+  cursor: pointer;
+}
+
+.insects {
+  display: flex;
+  justify-content: space-around;
+}
+
+.insect-btn {
+  border: 2px solid #fff;
+  background-color: transparent;
+  font-family: inherit;
+  color: inherit;
+  min-width: 150px;
+  margin: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem;
+}
+
+.insect-btn:hover {
+  cursor: pointer;
+  background-color: #fff;
+  color: #4268FF;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+}
+
+.third-screen {
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.stats {
+  width: 100%;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.playing-area {
+  width: 100%;
+  height: 90vh;
+  padding: 100px;
+  position: relative;
+}
+
+.game-img {
+  position: absolute;
+  cursor: pointer;
+}

@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #5D388E;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  position: relative;
+}
+
+button, .toast {
+  background-color: #fff;
+  color: #000;
+  border: none;
+  border-radius: 10px;
+  padding: 1rem 2rem;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+button:active {
+  transform: scale(0.95);
+}
+
+.toast {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  transition: 2s ease-in-out;
+}

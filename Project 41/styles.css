@@ -1,0 +1,37 @@
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fbfcfe;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  max-width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border: 2px solid #000;
+  border-radius: 10px;
+  padding: 1rem;
+}
+
+.input {
+  width: 50px;
+  height: 100px;
+  text-align: center;
+  font-size: 1.2rem;
+
+}

@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  position: relative;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #2D0320;
+  color: #fff;
+}
+
+.title {
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  margin-bottom: 20px;
+}
+
+.img {
+  width: 300px;
+  border: 2px solid #F6F7EB;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+              rgba(0, 0, 0, 0.12) 0px -12px 30px,
+              rgba(0, 0, 0, 0.12) 0px 4px 6px,
+              rgba(0, 0, 0, 0.17) 0px 12px 13px,
+              rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  border-radius: 5px;
+}
+
+.fa-heart {
+  position: absolute;
+  color: red;
+  font-size: 1rem;
+  opacity: 0.1;
+  transform: translate(-50%, -50%);
+  transition: 0.5s cubic-bezier(0.72, -0.16, 0.96, 1.04);;
+}
